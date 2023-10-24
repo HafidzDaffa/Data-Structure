@@ -33,5 +33,5 @@ var arr = [100, 59, 29, 29, 90, 20, 18, 78];
 var n = 8;
 
 selectionSort(arr, n);
-console.log("Sorted array:");
+console.log("Sorted selection-sort:");
 printArray(arr, n);

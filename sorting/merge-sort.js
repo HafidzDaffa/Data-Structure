@@ -59,12 +59,12 @@ function printArray( A, size)
 }
  
 var arr = [100, 59, 29, 29, 90, 20, 18, 78];
-    var arr_size = arr.length;
- 
-    console.log("Given :");
-    printArray(arr, arr_size);
- 
-    mergeSort(arr, 0, arr_size - 1);
- 
-    console.log("Sorted :");
-    printArray(arr, arr_size);
+var arr_size = arr.length;
+
+console.log("Given :");
+printArray(arr, arr_size);
+
+mergeSort(arr, 0, arr_size - 1);
+
+console.log("Sorted merge-sort :");
+printArray(arr, arr_size);

@@ -31,5 +31,5 @@ function printArray(arr, size)
 var arr = [100, 59, 29, 29, 90, 20, 18, 78];
 var n = arr.length;
 bubbleSort(arr, n);
-console.log("Sorted array: ");
+console.log("Sorted bubble-sort: ");
 printArray(arr, n);
